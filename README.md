@@ -1,6 +1,4 @@
-Mình sẽ tạo nội dung `README.md` cho bạn ngay đây, bạn chỉ cần copy và dán vào file `README.md` trong thư mục dự án là được nhé:
 
-````markdown
 # STM32F411VET6 LED Blinking Project
 
 ## Giới thiệu
@@ -117,12 +115,3 @@ Nếu cần hỗ trợ thêm, bạn có thể hỏi tại:
 
 ---
 
-Bạn copy đoạn trên vào file `README.md` trong thư mục dự án, rồi mở terminal chạy:
-
-```bash
-cat README.md
-````
-
-để xem lại nội dung hoặc dùng `less README.md` cho dễ đọc.
-
-Nếu bạn muốn, mình có thể tạo file và upload trực tiếp cho bạn! Bạn cần không?
