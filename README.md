@@ -112,6 +112,8 @@ arm-none-eabi-gdb build/STM32F411.elf
 
 3. Trong GDB:
 
+![image](https://github.com/user-attachments/assets/5f37c46f-06b0-4d48-b82d-f12add0c7cb2)
+
 ```gdb
 target remote localhost:3333
 load
