@@ -30,7 +30,8 @@ INCLUDES = -I$(INC_DIR) \
 # Source files
 SRC_APP      = $(SRC_DIR)/main.c \
                $(SRC_DIR)/Gpio.c \
-			   $(SRC_DIR)/Uart_Builder.c
+			   $(SRC_DIR)/Uart_Builder.c \
+			   $(SRC_DIR)/Uart_Driver.c
 
 SRC_CMSIS    = $(CMSIS_DEVICE_SRC)/Templates/system_stm32f4xx.c
 
