@@ -29,7 +29,8 @@ INCLUDES = -I$(INC_DIR) \
 
 # Source files
 SRC_APP      = $(SRC_DIR)/main.c \
-               $(SRC_DIR)/Gpio.c
+               $(SRC_DIR)/Gpio.c \
+			   $(SRC_DIR)/Uart_Builder.c
 
 SRC_CMSIS    = $(CMSIS_DEVICE_SRC)/Templates/system_stm32f4xx.c
 
@@ -69,6 +70,7 @@ DEPS = $(wildcard $(INC_DIR)/*.h)
 all: $(BIN)
 
 $(BUILD_DIR):
+	@if [ -d $(BUILD_DIR) ]; then rm -rf $(BUILD_DIR); fi
 	@mkdir -p $(BUILD_DIR)
 
 # Compile application source files
